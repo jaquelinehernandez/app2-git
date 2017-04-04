@@ -12,7 +12,7 @@ Aplicacion de telefonos celulares
 </description>
 
 <author href="https://build.phonegap.com" email="jaqueline.hernandez.cbtis16@gmail.com">
-jennifer hernández romero 4 g
+jaqueline hernández romero 4 g
 </author>
 
 <!--Personaiza la aplicacion y plataforma-->
@@ -37,4 +37,10 @@ jennifer hernández romero 4 g
 
 <icon src="res/android/mdpi.png"/>
 
+<!--para accsesar a paginas de internet-->
+<allow-intent href="https://*/*"/>
+<acces origin=="https://*/*"/>
+<allow-intent href="http://*/*"/>
+<acces origin=="http://*/*"/>
+<plugin name="cordova-plugin-whitelist"sourse="npm"/>
 </widget>
