@@ -33,14 +33,16 @@ jaqueline hernández romero 4 g
 <!--<plugin name="cordova-plugin-geolocation"source="npm"/>-->
 <!--Third party plugins-->
 
-<!--Colocar icono app-->
-
-<icon src="res/android/mdpi.png"/>
-
 <!--para accsesar a paginas de internet-->
 <allow-intent href="https://*/*"/>
 <acces origin=="https://*/*"/>
 <allow-intent href="http://*/*"/>
 <acces origin=="http://*/*"/>
-<plugin name="cordova-plugin-whitelist"sourse="npm"/>
+<plugin name="cordova-plugin-whitelist" sourse="npm"/>
+
+<!--Colocar icono app-->
+
+<icon src="res/android/mdpi.png"/>
+
+
 </widget>
